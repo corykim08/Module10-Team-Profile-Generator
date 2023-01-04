@@ -1,0 +1,105 @@
+/*html and body styling start*/
+
+:root {
+
+    --primary: #c8e9f2;
+
+    --secondary: #a8e9ed;
+
+    --tertiary: #89afaf;
+
+    --light-dark: #6f6866;
+
+    --dark: #0b0a0a;
+
+    --border-radius: .3rem;
+
+}
+
+body {
+
+    background-color: var(--primary);
+
+    margin: 0;
+
+    padding: 0;
+
+    color: var(--dark);
+
+    line-height: 1.5;
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+/*html and body styling end*/
+
+
+
+/*header styling start*/
+
+.header-title {
+
+    font-weight: bold;
+    background-color: skyblue;
+    /* background-position: center; */
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+.hero {
+
+    float: left;
+
+    margin-left: 20px;
+
+    
+
+}
+
+.col-8 {
+
+    width: auto;
+
+    border: none;
+
+}
+.current-weather{
+
+    background-color: #fff;
+    float: left;
+    width: 60%;
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+
+}
+.Name {
+
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 30px;
+   
+
+}
+.Info{
+
+    background-color: rgb(231, 247, 233);
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 20px 20px 20px 20px;
+    box-shadow: 5px 5px 5px;
+
+}
+h3 {
+    background-color: rgb(139, 238, 205);
+    margin: 0px 0px 0px 0px;
+    padding-left: 10px;
+}
+.test {
+    padding: 10px;
+}
+
